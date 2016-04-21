@@ -1,0 +1,32 @@
+------- Configuration file of the airport simulation -----
+
+ScenarioName TestAeroScript
+
+Airport Model:
+GatesNum 6
+PistNum 1
+EnterTaxiWaysNum 1
+ExitTaxiWaysNum 1
+
+Plane Processing Model (time in min):
+ApproachTime [ 2 5 ]
+LandingTime 2
+DrivingTime [ 2 6 ]
+DisembarkingPassengersTime 10
+PlanePreparationTime 30
+BoardingPassengersTime 20
+TakeOffTime 3
+
+Frequentation Model of the airport:
+PlanesNumByHour 3
+PlanesNumByRushHour 6
+PlanesNumByHourWE 1.5
+RushHourInterval [ 7 10 ] [ 17 19 ]
+ClosingTimeInterval [ 22 7 ]
+
+Weather Model:
+BadWeatherRate 0.125
+
+Time of simulation (in days) :
+SimulationTime 7
+

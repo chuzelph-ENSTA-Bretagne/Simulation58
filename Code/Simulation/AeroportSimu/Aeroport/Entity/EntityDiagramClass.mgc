@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="Aeroport.Entity.Avion" x="78" y="289">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="Aeroport.Entity.AeroportEntity"/>
+        <Communication destinationClassName="Aeroport.Entity.AeroportEntity"/>
+    </Class>
+    <Class name="Aeroport.Entity.AeroportEntity" x="347" y="104">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="Aeroport.Entity.TaxiWayOut" x="597" y="294">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="Aeroport.Entity.AeroportEntity"/>
+        <Communication destinationClassName="Aeroport.Entity.AeroportEntity"/>
+    </Class>
+    <Class name="Aeroport.Entity.GateWay" x="243" y="291">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="Aeroport.Entity.AeroportEntity"/>
+        <Communication destinationClassName="Aeroport.Entity.AeroportEntity"/>
+    </Class>
+    <Class name="Aeroport.Entity.TaxiWayIn" x="461" y="292">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="Aeroport.Entity.AeroportEntity"/>
+        <Communication destinationClassName="Aeroport.Entity.AeroportEntity"/>
+    </Class>
+    <Class name="Aeroport.Entity.Piste" x="333" y="290">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="Aeroport.Entity.AeroportEntity"/>
+        <Communication destinationClassName="Aeroport.Entity.AeroportEntity"/>
+    </Class>
+</ClassDiagram>
